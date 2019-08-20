@@ -8,8 +8,8 @@ public class Abonent {
     private char gender;
 
     public static void main(String[] args) {
-        Abonent myAbo = new Abonent(1, "Alex", "Solomka", 29, 'm');
-        Abonent myAbo2 = new Abonent(2, "Olya", "Solomka", 28, 'f');
+        Abonent myAbo = new Abonent(1, "Alex", "AAA", 29, 'm');
+        Abonent myAbo2 = new Abonent(2, "Helga", "HHH", 28, 'f');
 
         myAbo.print();
         myAbo2.print();
